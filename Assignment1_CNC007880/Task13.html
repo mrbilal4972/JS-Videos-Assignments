@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Task13</title>
+    <style>
+    #R1{
+        padding-bottom: 20px;
+        border-bottom: 2px dotted black;
+        width: 25%;
+
+    }
+
+    </style>
+</head>
+<body>
+    <p id=R1></p>
+    <p id=R2></p>
+    <p id=R3></p>
+    <p id=R4></p>
+    <p id=R5></p>
+</body>
+<script>
+    var a = Number(prompt("Enter any number", "6"));
+    document.getElementById("R1").innerHTML = "Result:<br> The value of a is: "+a
+    document.getElementById("R2").innerHTML = "The value of ++a is :" + ++a 
+                                            + "<br> Now the value of a is : "+a
+    document.getElementById("R3").innerHTML = "The value of a++ is :" + a++ 
+                                           + "<br> Now the value of a is : "+a
+    document.getElementById("R4").innerHTML = "The value of --a is :" + --a 
+                                            + "<br> Now the value of a is : "+a
+    document.getElementById("R5").innerHTML = "The value of a-- is :" + a-- 
+                                           + "<br> Now the value of a is : "+a
+
+</script>
+
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Task11</title>
+</head>
+<body>
+    
+</body>
+<script>
+    var cel_1 = Number(prompt("Enter the Temperature in Celsius", 28));
+    var fahr_1 = Number(prompt("Enter the Temperature in Fahrenheit", 82.4));
+    var fahr_2 = (  (cel_1 * 9/5) + 32).toFixed(2);
+    var cel_2 = ((fahr_1 -32) * 5/9).toFixed(2);
+
+    document.write(cel_1 + "<sup>o</sup>C is " + fahr_2 + 
+                "<sup>o</sup>F</br>" + fahr_1 + "<sup>o</sup>F is "
+                + cel_2 + "<sup>o</sup>C");
+
+</script>
+
+</html>

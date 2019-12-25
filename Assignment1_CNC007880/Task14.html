@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task14</title>
+    <style>
+    #target{
+        line-height: 150%;
+    }
+    </style>
+</head>
+
+<body>
+    <p id = target></p>
+</body>
+
+<script>
+    var a = 2, b = 1;
+    var r1 = --a;
+    var r2 = r1 - --b;
+    var r3 = r2 + ++b;
+    var r4 = r3 + b--;
+
+    document.getElementById("target").innerHTML = "a is " +a+ "</br>b is " +b+ 
+    "--a; " +r1+ "</br>--a - --b; " +r2+ "</br> --a - --b + ++b; " +r3+
+    "</br>--a - --b + ++b + b--; " +r4+ "</br>Result is " +r4
+
+
+</script>
+</html>
